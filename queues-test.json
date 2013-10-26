@@ -1,25 +1,47 @@
 {
     "queues": {
-        "Breakfast Queue": {
+        "b555e232-6756-4816-89fe-f6f690e8ab5b": {
             "shortCode": "BACN",
+            "name": "Breakfast Queue",
+            "details": "Join this queue to get bacon",
+            "type": "automated",
+            "gap" : 15,
             "users": {
-                "blue": {
+                "2013-10-26T17:36:00": {
+                    "userId": "ecc9d67b-0b05-4439-ac21-a4040893e198",
                     "status": "waiting"
                 },
-                "white": {
+                "2013-10-26T17:40:00": {
+                    "userId": "0e5d2d51-2bf7-4c1e-9d1a-952710f70725",
+                    "status": "holding"
+                }
+            }
+        },
+        "c10b59c4-f203-471d-a4b6-e3cefe3d1d2e": {
+            "shortCode": "HELI",
+            "name": "Helicopter Queue",
+            "details": "Join this queue to fly a Helicopter",
+            "type": "managed",
+            "users": {
+                "2013-10-26T17:36:00": {
+                    "userId": "ecc9d67b-0b05-4439-ac21-a4040893e198",
+                    "status": "waiting"
+                },
+                "2013-10-26T17:40:00": {
+                    "userId": "0e5d2d51-2bf7-4c1e-9d1a-952710f70725",
                     "status": "holding"
                 }
             }
         }
     },
     "users": {
-        "blue": {
+        "ecc9d67b-0b05-4439-ac21-a4040893e198": {
             "fullName": "Bob Blue",
-            "mobile": "07985222260"
+            "mobile": "4477123456789"
         },
-        "white": {
+        "0e5d2d51-2bf7-4c1e-9d1a-952710f70725": {
             "fullName": "Alice White",
-            "mobile": "07985222260"
+            "mobile": "4477123456789"
         }
     }
 }
