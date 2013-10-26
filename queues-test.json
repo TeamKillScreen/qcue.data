@@ -1,0 +1,25 @@
+{
+    "queues": {
+        "Breakfast Queue": {
+            "shortCode": "BACN",
+            "users": {
+                "blue": {
+                    "status": "waiting"
+                },
+                "white": {
+                    "status": "holding"
+                }
+            }
+        }
+    },
+    "users": {
+        "blue": {
+            "fullName": "Bob Blue",
+            "mobile": "07985222260"
+        },
+        "white": {
+            "fullName": "Alice White",
+            "mobile": "07985222260"
+        }
+    }
+}
