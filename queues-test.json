@@ -7,6 +7,12 @@
             "type": "automated",
             "gap": 15,
             "queueStart": "2013-10-27T09:00:00",
+            "messages": {
+                "holding" : "Someone told us you want to wait for bacon. That's cool, you're a bit strange though.",
+                "joined" : "Thanks for joining the Breakfast queue. We'll let you know when it's your turn for food.",
+                "servicing" : "Hey it's time to go get that bacon butty or other breakfast sandwich. Go go go!", 
+                "serviced" : "We hope you enjoyed the bacon butty!"
+            },
             "users": {
                 "2013-10-26T17:36:00": {
                     "userId": "ecc9d67b-0b05-4439-ac21-a4040893e198",
@@ -23,6 +29,12 @@
             "name": "Helicopter Queue",
             "details": "Join this queue to fly a Helicopter",
             "type": "managed",
+            "messages": {
+                "holding" : "You're wanting to wait for the Helicopter? That's cool with us.",
+                "joined" : "Thanks for your interest in flying our Helicopter. We'll let you know when it's free.",
+                "servicing" : "The Helicopter is now free! Come have a play with it!",
+                "serviced" : "Team Kill Screen would like to thank you for flying Team Kill Screen Airlines."
+            },
             "users": {
                 "2013-10-26T17:36:00": {
                     "userId": "ecc9d67b-0b05-4439-ac21-a4040893e198",
@@ -38,11 +50,13 @@
     "users": {
         "ecc9d67b-0b05-4439-ac21-a4040893e198": {
             "fullName": "Bob Blue",
-            "mobile": "4477123456789"
+            "mobile": "44551234567890",
+            "registrationTextSent" : true
         },
         "0e5d2d51-2bf7-4c1e-9d1a-952710f70725": {
             "fullName": "Alice White",
-            "mobile": "4477123456789"
+            "mobile": "44551234567891",
+            "registrationTextSent" : true
         }
     }
 }
