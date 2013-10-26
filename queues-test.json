@@ -5,7 +5,8 @@
             "name": "Breakfast Queue",
             "details": "Join this queue to get bacon",
             "type": "automated",
-            "gap" : 15,
+            "gap": 15,
+            "queueStart": "2013-10-27T09:00:00",
             "users": {
                 "2013-10-26T17:36:00": {
                     "userId": "ecc9d67b-0b05-4439-ac21-a4040893e198",

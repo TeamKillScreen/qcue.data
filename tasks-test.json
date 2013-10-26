@@ -2,7 +2,7 @@
 	"blah": {
 		"task": "sms",
 		"payload": {
-			"number": "44771234567890",
+			"mobile": "44771234567890",
 			"message": "Hello+world"
 		}
 	}
