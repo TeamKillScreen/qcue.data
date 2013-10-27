@@ -21,6 +21,14 @@
                 "2013-10-26T17:40:00": {
                     "userId": "0e5d2d51-2bf7-4c1e-9d1a-952710f70725",
                     "status": "holding"
+                },
+                "2013-10-26T17:41:00": {
+                    "userId": "d9e468d5-65f9-4d88-a2a3-220e5e476366",
+                    "status": "waiting"
+                },
+                "2013-10-26T17:42:00": {
+                    "userId": "578b4d5e-84be-4e5d-bc62-046102fa3cdd",
+                    "status": "waiting"
                 }
             }
         },
@@ -56,6 +64,16 @@
         "0e5d2d51-2bf7-4c1e-9d1a-952710f70725": {
             "fullName": "Alice White",
             "mobile": "44551234567891",
+            "registrationTextSent" : true
+        },
+        "578b4d5e-84be-4e5d-bc62-046102fa3cdd": {
+            "fullName": "Carl Green",
+            "mobile": "44551234567890",
+            "registrationTextSent" : true
+        },
+        "d9e468d5-65f9-4d88-a2a3-220e5e476366": {
+            "fullName": "Dan Reed",
+            "mobile": "44551234567890",
             "registrationTextSent" : true
         }
     }
